@@ -1,5 +1,6 @@
 import {supabase} from './supabase';
 import {Order, NewOrderInput} from '../types';
+import {notificationService} from './notificationService';
 
 export interface OrderResponse {
   success: boolean;
@@ -29,6 +30,14 @@ export const orderService = {
           success: false,
           error: error.message,
         };
+      }
+
+      // Send notifications after successful order creation
+      // This runs in the background and won't block the response
+      if (data) {
+        notificationService
+          .sendOrderNotifications(data.id, orderData)
+          .catch(err => console.log('Notification error:', err));
       }
 
       return {

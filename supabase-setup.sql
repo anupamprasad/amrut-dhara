@@ -9,7 +9,7 @@ CREATE TABLE IF NOT EXISTS orders (
   company_name TEXT NOT NULL,
   contact_name TEXT NOT NULL,
   mobile_number TEXT NOT NULL,
-  bottle_type TEXT NOT NULL CHECK (bottle_type IN ('200ML', '300ML', '500ML')),
+  bottle_type TEXT NOT NULL CHECK (bottle_type IN ('200ml', '300ml', '500ml')),
   quantity INTEGER NOT NULL CHECK (quantity > 0),
   delivery_address TEXT NOT NULL,
   delivery_date DATE NOT NULL,

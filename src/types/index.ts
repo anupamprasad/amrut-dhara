@@ -6,7 +6,7 @@ export interface User {
 
 export type OrderStatus = 'pending' | 'processing' | 'confirmed' | 'delivered' | 'cancelled';
 
-export type BottleType = '200ML' | '300ML' | '500ML';
+export type BottleType = '200ml' | '300ml' | '500ml';
 
 export interface Order {
   id: string;

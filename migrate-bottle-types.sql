@@ -21,11 +21,11 @@ END $$;
 -- Step 2: Update existing data to new bottle types (if any exist)
 UPDATE orders 
 SET bottle_type = CASE 
-  WHEN bottle_type = '20L' THEN '500ML'
-  WHEN bottle_type = '10L' THEN '300ML'
-  WHEN bottle_type = '5L' THEN '200ML'
-  WHEN bottle_type = '2L' THEN '200ML'
-  WHEN bottle_type = '1L' THEN '200ML'
+  WHEN bottle_type = '20L' THEN '500ml'
+  WHEN bottle_type = '10L' THEN '300ml'
+  WHEN bottle_type = '5L' THEN '200ml'
+  WHEN bottle_type = '2L' THEN '200ml'
+  WHEN bottle_type = '1L' THEN '200ml'
   ELSE bottle_type
 END
 WHERE bottle_type IN ('20L', '10L', '5L', '2L', '1L');
@@ -33,7 +33,7 @@ WHERE bottle_type IN ('20L', '10L', '5L', '2L', '1L');
 -- Step 3: Re-add all necessary constraints
 ALTER TABLE orders 
 ADD CONSTRAINT orders_bottle_type_check 
-CHECK (bottle_type IN ('200ML', '300ML', '500ML'));
+CHECK (bottle_type IN ('200ml', '300ml', '500ml'));
 
 ALTER TABLE orders 
 ADD CONSTRAINT orders_quantity_check 

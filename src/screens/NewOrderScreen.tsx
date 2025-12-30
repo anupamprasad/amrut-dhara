@@ -27,7 +27,7 @@ const NewOrderScreen = () => {
   const [companyName, setCompanyName] = useState('');
   const [contactName, setContactName] = useState('');
   const [mobileNumber, setMobileNumber] = useState('');
-  const [bottleType, setBottleType] = useState<BottleType>('200ML');
+  const [bottleType, setBottleType] = useState<BottleType>('200ml');
   const [quantity, setQuantity] = useState('');
   const [deliveryAddress, setDeliveryAddress] = useState('');
   const [deliveryDate, setDeliveryDate] = useState(new Date());
@@ -37,9 +37,9 @@ const NewOrderScreen = () => {
   const [loading, setLoading] = useState(false);
 
   const bottleOptions = [
-    {value: '200ML', label: '200 ML'},
-    {value: '300ML', label: '300 ML'},
-    {value: '500ML', label: '500 ML'},
+    {value: '200ml', label: '200 ML'},
+    {value: '300ml', label: '300 ML'},
+    {value: '500ml', label: '500 ML'},
   ];
 
   const validateForm = () => {

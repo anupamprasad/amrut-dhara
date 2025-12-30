@@ -37,11 +37,9 @@ const NewOrderScreen = () => {
   const [loading, setLoading] = useState(false);
 
   const bottleOptions = [
-    {value: '20L', label: '20L'},
-    {value: '10L', label: '10L'},
-    {value: '5L', label: '5L'},
-    {value: '2L', label: '2L'},
-    {value: '1L', label: '1L'},
+    {value: '200ML', label: '200 ML'},
+    {value: '300ML', label: '300 ML'},
+    {value: '500ML', label: '500 ML'},
   ];
 
   const validateForm = () => {

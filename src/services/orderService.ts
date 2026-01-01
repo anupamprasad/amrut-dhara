@@ -26,18 +26,22 @@ export const orderService = {
         .single();
 
       if (error) {
+        console.error('❌ Order creation failed:', error);
         return {
           success: false,
           error: error.message,
         };
       }
 
+      console.log('✅ Order created successfully:', data?.id);
+
       // Send notifications after successful order creation
-      // This runs in the background and won't block the response
       if (data) {
+        console.log('🔔 Triggering notifications for order:', data.id);
         notificationService
           .sendOrderNotifications(data.id, orderData)
-          .catch(err => console.log('Notification error:', err));
+          .then(() => console.log('✅ Notification process completed'))
+          .catch(err => console.error('❌ Notification error:', err));
       }
 
       return {

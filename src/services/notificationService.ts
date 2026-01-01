@@ -34,10 +34,18 @@ export const notificationService = {
   ): Promise<void> {
     try {
       console.log('🔔 Starting notification process for order:', orderId);
+      console.log('📝 Order data:', JSON.stringify(orderData, null, 2));
 
-      // Use admin email and phone from environment variables
+      // Use admin email and phone from environment variables with fallbacks
       const adminEmail = ADMIN_EMAIL || 'anupam200@gmail.com';
       const adminPhone = ADMIN_PHONE_NUMBER || '+919810554738';
+
+      console.log('🔑 Environment check:', {
+        RESEND_API_KEY: RESEND_API_KEY ? `${RESEND_API_KEY.substring(0, 10)}...` : 'MISSING',
+        ADMIN_EMAIL: adminEmail,
+        TWILIO_ACCOUNT_SID: TWILIO_ACCOUNT_SID ? `${TWILIO_ACCOUNT_SID.substring(0, 10)}...` : 'MISSING',
+        ADMIN_PHONE_NUMBER: adminPhone,
+      });
 
       const notificationData: NotificationData = {
         orderId,
@@ -68,9 +76,16 @@ export const notificationService = {
       ]);
 
       console.log('📊 Notification results:', {
-        email: emailResult.status === 'fulfilled' ? emailResult.value : 'failed',
-        sms: smsResult.status === 'fulfilled' ? smsResult.value : 'failed',
+        email: emailResult.status === 'fulfilled' ? (emailResult.value ? '✅ Success' : '❌ Failed') : `❌ Error: ${emailResult.reason}`,
+        sms: smsResult.status === 'fulfilled' ? (smsResult.value ? '✅ Success' : '❌ Failed') : `❌ Error: ${smsResult.reason}`,
       });
+
+      if (emailResult.status === 'rejected') {
+        console.error('📧 Email rejection reason:', emailResult.reason);
+      }
+      if (smsResult.status === 'rejected') {
+        console.error('📱 SMS rejection reason:', smsResult.reason);
+      }
     } catch (error) {
       console.error('❌ Failed to send notifications:', error);
       // Silently fail - notifications are not critical

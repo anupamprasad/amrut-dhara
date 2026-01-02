@@ -12,7 +12,7 @@ import com.microsoft.codepush.react.CodePush
 
 class MainApplication : Application(), ReactApplication {
 
-  override val reactNativeHost: ReactNativeHost =
+  private val mReactNativeHost: ReactNativeHost =
       object : DefaultReactNativeHost(this) {
         override fun getPackages(): List<ReactPackage> =
             PackageList(this).packages.apply {
@@ -23,10 +23,13 @@ class MainApplication : Application(), ReactApplication {
 
         override fun getUseDeveloperSupport(): Boolean = false
         
-        override fun getJSBundleFile(): String? {
+        override fun getJSBundleFile(): String {
           return CodePush.getJSBundleFile()
         }
       }
+
+  override val reactNativeHost: ReactNativeHost
+    get() = mReactNativeHost
 
   override val reactHost: ReactHost
     get() = DefaultReactHost.getDefaultReactHost(applicationContext, reactNativeHost)

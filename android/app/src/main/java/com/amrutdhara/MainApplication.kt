@@ -23,10 +23,10 @@ class MainApplication : Application(), ReactApplication {
 
         override fun getJSMainModuleName(): String = "index"
 
-        override fun getUseDeveloperSupport(): Boolean = BuildConfig.DEBUG
+        override fun getUseDeveloperSupport(): Boolean = com.amrutdhara.BuildConfig.DEBUG
 
-        override val isNewArchEnabled: Boolean = BuildConfig.IS_NEW_ARCHITECTURE_ENABLED
-        override val isHermesEnabled: Boolean = BuildConfig.IS_HERMES_ENABLED
+        override val isNewArchEnabled: Boolean = com.amrutdhara.BuildConfig.IS_NEW_ARCHITECTURE_ENABLED
+        override val isHermesEnabled: Boolean = com.amrutdhara.BuildConfig.IS_HERMES_ENABLED
         
         override fun getJSBundleFile(): String? {
           return CodePush.getJSBundleFile()
@@ -39,7 +39,7 @@ class MainApplication : Application(), ReactApplication {
   override fun onCreate() {
     super.onCreate()
     SoLoader.init(this, false)
-    if (BuildConfig.IS_NEW_ARCHITECTURE_ENABLED) {
+    if (com.amrutdhara.BuildConfig.IS_NEW_ARCHITECTURE_ENABLED) {
       load()
     }
   }

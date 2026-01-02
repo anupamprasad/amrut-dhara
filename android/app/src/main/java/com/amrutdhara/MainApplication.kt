@@ -6,10 +6,8 @@ import com.facebook.react.ReactApplication
 import com.facebook.react.ReactHost
 import com.facebook.react.ReactNativeHost
 import com.facebook.react.ReactPackage
-import com.facebook.react.defaults.DefaultNewArchitectureEntryPoint.load
 import com.facebook.react.defaults.DefaultReactHost
 import com.facebook.react.defaults.DefaultReactNativeHost
-import com.facebook.soloader.SoLoader
 import com.microsoft.codepush.react.CodePush
 
 class MainApplication : Application(), ReactApplication {
@@ -23,10 +21,7 @@ class MainApplication : Application(), ReactApplication {
 
         override fun getJSMainModuleName(): String = "index"
 
-        override fun getUseDeveloperSupport(): Boolean = com.amrutdhara.BuildConfig.DEBUG
-
-        override val isNewArchEnabled: Boolean = com.amrutdhara.BuildConfig.IS_NEW_ARCHITECTURE_ENABLED
-        override val isHermesEnabled: Boolean = com.amrutdhara.BuildConfig.IS_HERMES_ENABLED
+        override fun getUseDeveloperSupport(): Boolean = false
         
         override fun getJSBundleFile(): String? {
           return CodePush.getJSBundleFile()
@@ -38,9 +33,5 @@ class MainApplication : Application(), ReactApplication {
 
   override fun onCreate() {
     super.onCreate()
-    SoLoader.init(this, false)
-    if (com.amrutdhara.BuildConfig.IS_NEW_ARCHITECTURE_ENABLED) {
-      load()
-    }
   }
 }

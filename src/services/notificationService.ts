@@ -1,12 +1,5 @@
 import {supabase} from './supabase';
-import {
-  RESEND_API_KEY,
-  TWILIO_ACCOUNT_SID,
-  TWILIO_AUTH_TOKEN,
-  TWILIO_PHONE_NUMBER,
-  ADMIN_EMAIL,
-  ADMIN_PHONE_NUMBER,
-} from '@env';
+import {API_CONFIG} from '../config/api.config';
 
 // Notification service for sending emails and SMS
 // This service calls external APIs directly from the app
@@ -36,14 +29,14 @@ export const notificationService = {
       console.log('🔔 Starting notification process for order:', orderId);
       console.log('📝 Order data:', JSON.stringify(orderData, null, 2));
 
-      // Use admin email and phone from environment variables with fallbacks
-      const adminEmail = ADMIN_EMAIL || 'anupam200@gmail.com';
-      const adminPhone = ADMIN_PHONE_NUMBER || '+919810554738';
+      // Use admin email and phone from configuration
+      const adminEmail = API_CONFIG.admin.email;
+      const adminPhone = API_CONFIG.admin.phoneNumber;
 
-      console.log('🔑 Environment check:', {
-        RESEND_API_KEY: RESEND_API_KEY ? `${RESEND_API_KEY.substring(0, 10)}...` : 'MISSING',
+      console.log('🔑 Configuration check:', {
+        RESEND_API_KEY: API_CONFIG.resend.apiKey ? `${API_CONFIG.resend.apiKey.substring(0, 10)}...` : 'MISSING',
         ADMIN_EMAIL: adminEmail,
-        TWILIO_ACCOUNT_SID: TWILIO_ACCOUNT_SID ? `${TWILIO_ACCOUNT_SID.substring(0, 10)}...` : 'MISSING',
+        TWILIO_ACCOUNT_SID: API_CONFIG.twilio.accountSid ? `${API_CONFIG.twilio.accountSid.substring(0, 10)}...` : 'MISSING',
         ADMIN_PHONE_NUMBER: adminPhone,
       });
 
@@ -98,9 +91,9 @@ export const notificationService = {
   async sendEmail(data: NotificationData): Promise<boolean> {
     try {
       console.log('📧 Attempting to send email to:', data.userEmail);
-      console.log('📧 Using API key:', RESEND_API_KEY ? 'API key present' : 'API key MISSING');
+      console.log('📧 Using API key:', API_CONFIG.resend.apiKey ? 'API key present' : 'API key MISSING');
 
-      if (!RESEND_API_KEY) {
+      if (!API_CONFIG.resend.apiKey) {
         console.error('❌ RESEND_API_KEY is not configured');
         return false;
       }
@@ -158,7 +151,7 @@ export const notificationService = {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          Authorization: `Bearer ${RESEND_API_KEY}`,
+          Authorization: `Bearer ${API_CONFIG.resend.apiKey}`,
         },
         body: JSON.stringify({
           from: 'Amrut Dhara <onboarding@resend.dev>',
@@ -190,12 +183,12 @@ export const notificationService = {
     try {
       console.log('📱 Attempting to send SMS to:', data.mobileNumber);
       console.log('📱 Twilio config:', {
-        accountSid: TWILIO_ACCOUNT_SID ? 'present' : 'MISSING',
-        authToken: TWILIO_AUTH_TOKEN ? 'present' : 'MISSING',
-        phoneNumber: TWILIO_PHONE_NUMBER || 'MISSING',
+        accountSid: API_CONFIG.twilio.accountSid ? 'present' : 'MISSING',
+        authToken: API_CONFIG.twilio.authToken ? 'present' : 'MISSING',
+        phoneNumber: API_CONFIG.twilio.phoneNumber || 'MISSING',
       });
 
-      if (!TWILIO_ACCOUNT_SID || !TWILIO_AUTH_TOKEN || !TWILIO_PHONE_NUMBER) {
+      if (!API_CONFIG.twilio.accountSid || !API_CONFIG.twilio.authToken || !API_CONFIG.twilio.phoneNumber) {
         console.error('❌ Twilio credentials not configured');
         return false;
       }
@@ -203,11 +196,11 @@ export const notificationService = {
       const smsMessage = `New Order! ${data.companyName} - ${data.contactName}. ${data.quantity}x ${data.bottleType}. Delivery: ${new Date(data.deliveryDate).toLocaleDateString()}. ID: ${data.orderId.slice(0, 8)}`;
 
       const auth = Buffer.from(
-        `${TWILIO_ACCOUNT_SID}:${TWILIO_AUTH_TOKEN}`,
+        `${API_CONFIG.twilio.accountSid}:${API_CONFIG.twilio.authToken}`,
       ).toString('base64');
 
       const response = await fetch(
-        `https://api.twilio.com/2010-04-01/Accounts/${TWILIO_ACCOUNT_SID}/Messages.json`,
+        `https://api.twilio.com/2010-04-01/Accounts/${API_CONFIG.twilio.accountSid}/Messages.json`,
         {
           method: 'POST',
           headers: {
@@ -216,7 +209,7 @@ export const notificationService = {
           },
           body: new URLSearchParams({
             To: data.mobileNumber.startsWith('+') ? data.mobileNumber : `+91${data.mobileNumber}`,
-            From: TWILIO_PHONE_NUMBER,
+            From: API_CONFIG.twilio.phoneNumber,
             Body: smsMessage,
           }).toString(),
         },

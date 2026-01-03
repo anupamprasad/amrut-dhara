@@ -33,6 +33,26 @@ jobs:
     - name: Install npm dependencies
       run: npm install --legacy-peer-deps
       
+    - name: Create API configuration file
+      run: |
+        cat > src/config/api.config.ts << 'EOF'
+        // API Configuration
+        export const API_CONFIG = {
+          resend: {
+            apiKey: '${{ secrets.RESEND_API_KEY }}',
+          },
+          twilio: {
+            accountSid: '${{ secrets.TWILIO_ACCOUNT_SID }}',
+            authToken: '${{ secrets.TWILIO_AUTH_TOKEN }}',
+            phoneNumber: '${{ secrets.TWILIO_PHONE_NUMBER }}',
+          },
+          admin: {
+            email: '${{ secrets.ADMIN_EMAIL }}',
+            phoneNumber: '${{ secrets.ADMIN_PHONE_NUMBER }}',
+          },
+        };
+        EOF
+      
     - name: Cache Gradle packages
       uses: actions/cache@v3
       with:

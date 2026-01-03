@@ -17,10 +17,16 @@ export const AuthProvider: React.FC<{children: React.ReactNode}> = ({children}) 
 
   useEffect(() => {
     // Check current session
-    authService.getCurrentUser().then(currentUser => {
-      setUser(currentUser);
-      setLoading(false);
-    });
+    authService.getCurrentUser()
+      .then(currentUser => {
+        setUser(currentUser);
+        setLoading(false);
+      })
+      .catch(error => {
+        console.error('Auth initialization error:', error);
+        setUser(null);
+        setLoading(false);
+      });
 
     // Listen for auth changes
     const {data: subscription} = authService.onAuthStateChange(user => {

@@ -1,0 +1,557 @@
+--------- beginning of main
+01-03 14:29:21.984  1324  1393 I OriginChannel: wise light debug, data[0].type is 65627,data[0].sensor is 91:[195.000000,,160.000000,,29.000000,0.000000,1871911457707307]
+01-03 14:29:22.144  1324  1393 I OriginChannel: wise light debug, data[4].type is 65627,data[4].sensor is 91:[197.000000,,140.000000,,29.000000,0.000000,1871911617706071]
+01-03 14:29:22.175 23077 23077 D VendorWifiService: onEvent event:9,action:1
+01-03 14:29:22.230  4366  4381 W sist.multimedia: Reducing the number of considered missed Gc histogram windows from 352 to 100
+01-03 14:29:22.232  4366  4383 W sist.multimedia: ApkAssets: Deleting an ApkAssets object '<empty> and /system_ext/priv-app/LPPeService/LPPeService.apk' with 1 weak references
+01-03 14:29:22.233  4366  4383 W sist.multimedia: ApkAssets: Deleting an ApkAssets object '<empty> and /system_ext/priv-app/SystemUI/SystemUI.apk' with 1 weak references
+01-03 14:29:22.234  4366  4383 W sist.multimedia: ApkAssets: Deleting an ApkAssets object '/vendor/overlay/SystemUIResOverlay/SystemUIResOverlay.apk' with 1 weak references
+01-03 14:29:22.234  4366  4383 W sist.multimedia: ApkAssets: Deleting an ApkAssets object '/product/overlay/OplusSystemuiResOverlay/OplusSystemuiResOverlay.apk' with 1 weak references
+01-03 14:29:22.234  4366  4383 W sist.multimedia: ApkAssets: Deleting an ApkAssets object '/product/overlay/SystemUIFingerprintRes_13_0_XW.apk' with 1 weak references
+01-03 14:29:22.234  4366  4383 W sist.multimedia: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~-MXRjPc9N-z_EaOm_Te5Gg==/com.android.chrome-lA1YcdkHeezD_R-8p6Uevg==/base.apk' with 1 weak references
+01-03 14:29:22.235  4366  4383 W sist.multimedia: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~-MXRjPc9N-z_EaOm_Te5Gg==/com.android.chrome-lA1YcdkHeezD_R-8p6Uevg==/split_chrome.apk' with 1 weak references
+01-03 14:29:22.235  4366  4383 W sist.multimedia: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~-MXRjPc9N-z_EaOm_Te5Gg==/com.android.chrome-lA1YcdkHeezD_R-8p6Uevg==/split_config.en.apk' with 1 weak references
+01-03 14:29:22.235  4366  4383 W sist.multimedia: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~-MXRjPc9N-z_EaOm_Te5Gg==/com.android.chrome-lA1YcdkHeezD_R-8p6Uevg==/split_dev_ui.apk' with 1 weak references
+01-03 14:29:22.235  4366  4383 W sist.multimedia: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~-MXRjPc9N-z_EaOm_Te5Gg==/com.android.chrome-lA1YcdkHeezD_R-8p6Uevg==/split_on_demand.apk' with 1 weak references
+01-03 14:29:22.235  4366  4383 W sist.multimedia: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~-MXRjPc9N-z_EaOm_Te5Gg==/com.android.chrome-lA1YcdkHeezD_R-8p6Uevg==/split_stack_unwinder.apk' with 1 weak references
+01-03 14:29:22.235  4366  4383 W sist.multimedia: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~-MXRjPc9N-z_EaOm_Te5Gg==/com.android.chrome-lA1YcdkHeezD_R-8p6Uevg==/split_test_dummy.apk' with 1 weak references
+01-03 14:29:22.235  4366  4383 W sist.multimedia: ApkAssets: Deleting an ApkAssets object '<empty> and /data/app/~~4fOc3dRuIcLyO81OcIzBGg==/com.google.android.trichromelibrary_749914633-_yp5Mp_0bFExXkKbOnbibA==/base.apk' with 1 weak references
+01-03 14:29:22.306  1324  1393 I OriginChannel: wise light debug, data[0].type is 65627,data[0].sensor is 91:[197.000000,,120.000000,,29.000000,0.000000,1871911778214975]
+01-03 14:29:22.416  1681  1681 I thermal_repeater: [recvMdThermalInfo] ret=22, strLen=127,  4, 33, 0, 0, 32767, 0
+01-03 14:29:22.466  1324  1393 I OriginChannel: wise light debug, data[4].type is 65627,data[4].sensor is 91:[196.000000,,160.000000,,29.000000,0.000000,1871911938154590]
+01-03 14:29:22.614  1334  1399 I mtkpower@impl: [powerd_req] TIMER_MSG_PERF_LOCK_TIMEOUT hdl:307457
+01-03 14:29:22.615  1334  1399 I libPowerHal: [perfLockRel] hdl:307457, idx:5
+01-03 14:29:22.615  1334  1399 I [UAH_CLIENT]: UahRelease, handle:1880580
+01-03 14:29:22.616  1334  1399 I libPowerHal: [perfScnUpdate] release powerhal handle 307457
+01-03 14:29:22.617  1334  1399 I libPowerHal: [PD] MTKPOWER_HINT_PROCESS_CREATE update cmd:1408300 param:40, pr:3
+01-03 14:29:22.620  1334  1399 I libPowerHal: [PD] MTKPOWER_HINT_PROCESS_CREATE update cmd:1408300 param:40, pr:3
+01-03 14:29:22.623  1334  1399 I libPowerHal: [PD] MTKPOWER_HINT_PROCESS_CREATE update cmd:300c000 param:0, pr:6
+01-03 14:29:22.624  1324  1393 I OriginChannel: wise light debug, data[0].type is 65627,data[0].sensor is 91:[196.000000,,140.000000,,29.000000,0.000000,1871912098158619]
+01-03 14:29:22.627  1334  1399 I libPowerHal: [perfLockRel] Done for hdl : 307457
+01-03 14:29:22.762  2280  2337 D AES     : AEEIOCTL_GET/SET_SF_STATE IOCTL,cmd= 1074294797, lParam=0. 
+01-03 14:29:22.763  2280  2337 D AES     : AEEIOCTL_RT_MON_Kick IOCTL,cmd= 2147774474, lParam=300. 
+01-03 14:29:22.785  1324  1393 I OriginChannel: wise light debug, data[0].type is 65627,data[0].sensor is 91:[197.000000,,140.000000,,29.000000,0.000000,1871912258179456]
+01-03 14:29:22.789  3332  3800 D CommonApp-1286-10596: transport layer data is invalid
+01-03 14:29:22.792  3332  3800 D CommonApp-1286-10212: transport layer data is invalid
+01-03 14:29:22.945  1324  1393 I OriginChannel: wise light debug, data[3].type is 65627,data[3].sensor is 91:[198.000000,,140.000000,,29.000000,0.000000,1871912418166609]
+01-03 14:29:23.069  3332  3799 D ActivityAdapter: notifyActivityQuery: [com.google.android.packageinstaller; com.google.android.packageinstaller; 1; COMMON; 10212]
+01-03 14:29:23.069  3332  3799 D OPlusFrontAppManager: decide -->> [com.google.android.packageinstaller; com.google.android.packageinstaller; 1; COMMON; 10212]
+01-03 14:29:23.071  3332  3800 D CommonApp-1286-10596: destory
+01-03 14:29:23.071  3332  3800 D CommonApp-1286-10596: stopDataCollection
+01-03 14:29:23.071  3332  3800 D CommonApp-1286-10596: current network isn't cellular,not need disable modem report
+01-03 14:29:23.072  3332  3800 D CommonApp-1286-10596: CommonState exit
+01-03 14:29:23.072  3332  3800 D CommonApp-1286-10212: DefaultState EVENT_SCENARIOS_CHANGE
+01-03 14:29:23.072  3332  3800 D CommonApp-1286-10212: scene=COMMON pn=com.google.android.packageinstaller
+01-03 14:29:23.106  1324  1393 I OriginChannel: wise light debug, data[0].type is 65627,data[0].sensor is 91:[197.000000,,140.000000,,29.000000,0.000000,1871912578168374]
+01-03 14:29:23.138  6888 30911 D ShellSubscriberWorkerThread: the first 8 bytes empty, and RestData length > 8 
+01-03 14:29:23.255 28727 28727 I Process : Sending signal. PID: 28727 SIG: 9
+01-03 14:29:23.265  1324  1393 I OriginChannel: wise light debug, data[4].type is 65627,data[4].sensor is 91:[196.000000,,160.000000,,29.000000,0.000000,1871912738169258]
+01-03 14:29:23.268  1722 24188 D AALLightSensor: oldLux=6 [SA:-1 LA:-1] newLux=6 (oriLux: 6)
+01-03 14:29:23.278  1294  1294 I Zygote  : Process 28727 exited due to signal 9 (Killed)
+--------- beginning of system
+01-03 14:29:23.278  2280  2989 I ActivityManager: Death received, pid = 28727, processName = com.heytap.mcs.appservice for thread android.os.BinderProxy@1fc329
+01-03 14:29:23.278  2280  3100 I ActivityManager: Process com.heytap.mcs.appservice (pid 28727) has died: cch+15 CEM 
+01-03 14:29:23.278  2280  3100 W OplusAppStartupConfigExt: Prerequisites not met return FALSE
+01-03 14:29:23.278  2280  3100 D OplusAppStartupConfigExt: RestartService prevent pkg com.heytap.mcs result = false
+01-03 14:29:23.279  2280  3100 D OplusAppStartupManager: prevent restart service, pkgName = com.heytap.mcs, scenePriority = -1
+01-03 14:29:23.279  2280  2353 I libprocessgroup: Removed cgroup /sys/fs/cgroup/uid_1000/pid_28727
+01-03 14:29:23.280  2280  3100 I mtkpower_client: [PowerHal_Wrap_notifyAppState] com.heytap.mcs/com.heytap.mcs pid=28727 activityId:28727 state:3
+01-03 14:29:23.281  1332  1332 I vendor.mediatek.hardware.mtkpower_applist-service.mediatek: packName: com.heytap.mcs actName: com.heytap.mcs pid: 28727 activityId: 28727 uid: 1000 state: 3
+01-03 14:29:23.281  1332  1332 I MTK_APPList: [notifyAPPstate] com.heytap.mcs/com.heytap.mcs, pid=28727, activityId=28727, uid=1000, state:DEAD, fps:-1, win:0
+01-03 14:29:23.281  1332  1332 I MTK_APPList: [notifyAPPstate] multi_resumed_app_count: 1
+01-03 14:29:23.281  1332  1332 I MTK_APPList: [notifyAPPstate] multi_resumed_app_info[0] com.android.launcher/com.android.launcher.Launcher, pid:3151, activityId:123010678, fps:-1, isMultiWindow:0
+01-03 14:29:23.281  1332  1332 I MTK_APPList: [getForegroundAPPCount] 1
+01-03 14:29:23.281  1332  1332 I MTK_APPList: [notifyAPPstate] pack:com.heytap.mcs, pid:28727, STATE_DEAD
+01-03 14:29:23.281  1332  1332 I MTK_APPList: [notifyNetdUID] 10191
+01-03 14:29:23.282  3332  3789 I ProcessManager: onProcessDied pid:28727, uid:1000
+01-03 14:29:23.283  3332  3789 D AppSceneEventManager: handleMessage: 101
+01-03 14:29:23.283  3332  3789 I DispatcherPolicy: onBaseEvent EventId=22	INPUT_PROCESS_DIED	TimeStamp =1767430763283	Intent =null	Content =null	Pid =28727	PkgName =com.heytap.mcs
+01-03 14:29:23.283  3332  3789 I GamingScene: onInputEvent : INPUT_PROCESS_DIED
+01-03 14:29:23.283  1332  1332 I MTK_APPList: [notifyPID] 3151
+01-03 14:29:23.284  2929  5297 I PluginSeedling--Base: SeedlingPluginService-->onStateChange: Bundle[{pkgName=android.uid.system:1000, pid=28727, uid=1000, state=onProcessDied}]
+01-03 14:29:23.285  1334  1399 I libPowerHal: [perfSetSysInfo] pid type:24, 3151
+01-03 14:29:23.287  1332  1332 I MTK_APPList: [notifyAPPstate] applist_idx_list[0] 89
+01-03 14:29:23.287  1332  1332 I MTK_APPList: [notifyAPPstate] AppScenarioStatusInfo[0] 1
+01-03 14:29:23.407  3277  3277 D OplusTelephonyController: onSignalStrengthChanged: SignalStrength=SignalStrength:{mCdma=CellSignalStrengthCdma: cdmaDbm=2147483647 cdmaEcio=2147483647 evdoDbm=2147483647 evdoEcio=2147483647 evdoSnr=2147483647 level=0,mGsm=CellSignalStrengthGsm: rssi=2147483647 ber=2147483647 mTa=2147483647 mLevel=0,mWcdma=CellSignalStrengthWcdma: ss=2147483647 ber=2147483647 rscp=2147483647 ecno=2147483647 level=0,mTdscdma=CellSignalStrengthTdscdma: rssi=2147483647 ber=2147483647 rscp=2147483647 level=0,mLte=CellSignalStrengthLte: rssi=2147483647 rsrp=2147483647 rsrq=2147483647 rssnr=2147483647 cqiTableIndex=2147483647 cqi=2147483647 ta=2147483647 level=0 parametersUseForLevel=0,mNr=CellSignalStrengthNr:{ csiRsrp = 2147483647 csiRsrq = 2147483647 csiCqiTableIndex = 2147483647 csiCqiReport = [] ssRsrp = -107 ssRsrq = -4 ssSinr = 8 level = 1 parametersUseForLevel = 0 timingAdvance = 0 },primary=CellSignalStrengthNr}
+01-03 14:29:23.409 23077 23077 D SubsysEventListenerManager-SubsysTelephonyCallback[0]: onSignalStrengthsChanged
+01-03 14:29:23.411  2929  3095 I SystemUi--Statusbar: MobileConnectionRepositoryImpl-->subId:1 isSoftSimCard:false slotId:0
+01-03 14:29:23.415  3277  3277 D OplusTelephonyController: onSignalStrengthChanged: SignalStrength=SignalStrength:{mCdma=CellSignalStrengthCdma: cdmaDbm=2147483647 cdmaEcio=2147483647 evdoDbm=2147483647 evdoEcio=2147483647 evdoSnr=2147483647 level=0,mGsm=CellSignalStrengthGsm: rssi=2147483647 ber=2147483647 mTa=2147483647 mLevel=0,mWcdma=CellSignalStrengthWcdma: ss=2147483647 ber=2147483647 rscp=2147483647 ecno=2147483647 level=0,mTdscdma=CellSignalStrengthTdscdma: rssi=2147483647 ber=2147483647 rscp=2147483647 level=0,mLte=CellSignalStrengthLte: rssi=2147483647 rsrp=2147483647 rsrq=2147483647 rssnr=2147483647 cqiTableIndex=2147483647 cqi=2147483647 ta=2147483647 level=0 parametersUseForLevel=0,mNr=CellSignalStrengthNr:{ csiRsrp = 2147483647 csiRsrq = 2147483647 csiCqiTableIndex = 2147483647 csiCqiReport = [] ssRsrp = -107 ssRsrq = -4 ssSinr = 8 level = 1 parametersUseForLevel = 0 timingAdvance = 0 },primary=CellSignalStrengthNr}
+01-03 14:29:23.416 23077 23077 D SubsysEventListenerManager-SubsysTelephonyCallback[0]: onSignalStrengthsChanged
+01-03 14:29:23.425  1324  1393 I OriginChannel: wise light debug, data[0].type is 65627,data[0].sensor is 91:[195.000000,,120.000000,,29.000000,0.000000,1871912898173638]
+01-03 14:29:23.571  3332  3800 D UlPriorityPolicyForeground: match: config has not com.google.android.packageinstaller
+01-03 14:29:23.585  1324  1393 I OriginChannel: wise light debug, data[4].type is 65627,data[4].sensor is 91:[196.000000,,120.000000,,29.000000,0.000000,1871913058176023]
+01-03 14:29:23.745  1324  1393 I OriginChannel: wise light debug, data[0].type is 65627,data[0].sensor is 91:[197.000000,,120.000000,,29.000000,0.000000,1871913218181258]
+01-03 14:29:23.814  3332  3800 D CommonApp-1286-10212: transport layer data is invalid
+01-03 14:29:23.906  1324  1393 I OriginChannel: wise light debug, data[4].type is 65627,data[4].sensor is 91:[198.000000,,160.000000,,29.000000,0.000000,1871913378154249]
+01-03 14:29:23.953  1678  2155 D ULogGuard: Monitoring: 2 threads, 0 requests, 0 time-bombs; 15 guards. ResetFlags = 0x7
+01-03 14:29:24.059  1558  1558 I perfetto: ng_service_impl.cc:2103 FlushAndDisableTracing(57) done, success=1
+01-03 14:29:24.061  1557  1557 I perfetto:  probes_producer.cc:447 Producer stop (id=57)
+01-03 14:29:24.061  1557  1557 I perfetto:    ftrace_procfs.cc:441 disabled ftrace in /sys/kernel/tracing/
+01-03 14:29:24.067  1324  1393 I OriginChannel: wise light debug, data[3].type is 65627,data[3].sensor is 91:[196.000000,,160.000000,,29.000000,0.000000,1871913538175475]
+01-03 14:29:24.082  1557  1557 I perfetto:    ftrace_procfs.cc:441 disabled ftrace in /sys/kernel/tracing/
+01-03 14:29:24.091  3618 23040 I iopgp   : kTraceEnded and trace_end_kind = kSkip history_id = 0
+01-03 14:29:24.091  3618 23040 I iopgp   : skip out proto
+01-03 14:29:24.091  1558  1558 I perfetto: ng_service_impl.cc:2714 Tracing session 57 ended, total sessions:0
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory: Connected to unknown network * ID: 0 SSID: "A.1904.4G" PROVIDER-NAME: null BSSID: null FQDN: null HOME-PROVIDER-NETWORK: false PRIO: 0 HIDDEN: false PMF: false CarrierId: -1 SubscriptionId: -1 SubscriptionGroup: null Currently Connected: true User Selected: false
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  NetworkSelectionStatus NETWORK_SELECTION_ENABLED
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  connect choice: "A.1904.5G"WPA_PSK connect choice rssi: -51 hasEverConnected: true
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  hasNeverDetectedCaptivePortal: true
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  hasEverValidatedInternetAccess: true
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  mCandidateSecurityParams: Security Parameters:
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  Type: 2
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  Enabled: true
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  KeyMgmt: WPA_PSK
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  Protocols: WPA RSN
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  AuthAlgorithms:
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  PairwiseCiphers: TKIP CCMP
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  GroupCiphers: WEP40 WEP104 TKIP CCMP
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  GroupMgmtCiphers:
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  SuiteBCiphers:
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  RequirePmf: false
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  IsAddedByAutoUpgrade: false
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  IsSaeH2eOnlyMode: false
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  IsSaePkOnlyMode: false
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  mLastUsedSecurityParams: Security Parameters:
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  Type: 2
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  Enabled: true
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  KeyMgmt: WPA_PSK
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  Protocols: WPA RSN
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  AuthAlgorithms:
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  PairwiseCiphers: TKIP CCMP
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  GroupCiphers: WEP40 WEP104 TKIP CCMP
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  GroupMgmtCiphers:
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  SuiteBCiphers:
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  RequirePmf: false
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  IsAddedByAutoUpgrade: false
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  IsSaeH2eOnlyMode: false
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  IsSaePkOnlyMode: false
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  numAssociation 55
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  validatedInternetAccess shared trusted
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  macRandomizationSetting: 3
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  mRandomizedMacAddress: 7e:6b:50:e3:a0:76
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  randomizedMacExpirationTimeMs: 2026-01-04T14:18:20.438
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  randomizedMacLastModifiedTimeMs: <none>
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  persistentMacRandomizationSeed: 0
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  mIsSendDhcpHostnameEnabled: true
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  deletionPriority: 0
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  KeyMgmt: WPA_PSK Protocols: WPA RSN
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  AuthAlgorithms:
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  PairwiseCiphers: TKIP CCMP
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  GroupCiphers: WEP40 WEP104 TKIP CCMP
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  GroupMgmtCiphers:
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  SuiteBCiphers:
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  PSK/SAE: *
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory: SecurityParams List:
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory: Security Parameters:
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  Type: 2
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  Enabled: true
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  KeyMgmt: WPA_PSK
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  Protocols: WPA RSN
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  AuthAlgorithms:
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  PairwiseCiphers: TKIP CCMP
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  GroupCiphers: WEP40 WEP104 TKIP CCMP
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  GroupMgmtCiphers:
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  SuiteBCiphers:
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  RequirePmf: false
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  IsAddedByAutoUpgrade: false
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  IsSaeH2eOnlyMode: false
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  IsSaePkOnlyMode: false
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory: Security Parameters:
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  Type: 4
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  Enabled: true
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  KeyMgmt: SAE
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  Protocols: RSN
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  AuthAlgorithms:
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  PairwiseCiphers: CCMP GCMP_256 GCMP_128
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  GroupCiphers: CCMP GCMP_256 GCMP_128
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  GroupMgmtCiphers:
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  SuiteBCiphers:
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  RequirePmf: true
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  IsAddedByAutoUpgrade: true
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  IsSaeH2eOnlyMode: false
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  IsSaePkOnlyMode: false
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory: 
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory: Enterprise config:
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  ocsp: 0
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  trust_on_first_use: false
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  user_approve_no_ca_cert: false
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  selected_rcoi: 0
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  minimum_tls_version: 0
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  enable_conservative_peer_mode: false
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  tofu_dialog_state: 0
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  tofu_connection_state: 0
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory: IP config:
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory: IP assignment: DHCP
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory: Proxy settings: NONE
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  cuid=1000 cname=android.uid.system:1000 luid=1000 lname=android lcuid=1000 allowAutojoin=true noInternetAccessExpected=false mostRecentlyConnected=false 
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory: lastConnected: 2026-01-03T14:18:20.457 
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory: 
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory: lastUpdated: 2026-01-01T00:12:32.191 
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory: numRebootsSinceLastUse: 0
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory: recentFailure: Association Rejection code: 0, last update time: 0
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory: bssidAllowlist unset
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory: vendorData unset
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory: IsDppConfigurator: true
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory: HasEncryptedPreSharedKey: false
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  setWifi7Enabled=true
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  mIsAllowedToUpdateByOtherUsers=true
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory:  mCreatorUserId=-2
+01-03 14:29:24.187  2280  2633 W WifiNetworkFactory: :e4:da:df:7e:b0:99. Ignoring...
+01-03 14:29:24.187  2280  2280 D MBrainLocalService: isVendorFreezeConditionPass is false
+01-03 14:29:24.188  2280  2280 D MBrainLocalService: notifyNetworkChange failed
+01-03 14:29:24.188  2280  2763 D OplusGameFirstManager: oldAverRssi=-67,rssi=-67,newAverRssi=-67
+01-03 14:29:24.194 30223 30223 I wpa_supplicant: wlan0: command[CURRENT_RSSI -67], reply:SUCCESS
+01-03 14:29:24.195 23077 23077 D VendorWifiService: onEvent event:9,action:1
+01-03 14:29:24.196  2280  2736 D OplusWifiPower_TriggerCenter: mComponentCallback: wifistat
+01-03 14:29:24.196  2929  3009 D WifiStatusTracker: mNetworkCallback onCapabilitiesChanged network:1286 mPrimaryNetworkId:1286
+01-03 14:29:24.201  2929  3096 D WifiPickerTracker: handleNetworkCapabilitiesChanged network:1286
+01-03 14:29:24.201  2929  3009 D WifiStatusTracker: mNetworkCallback onCapabilitiesChanged network:1286 mPrimaryNetworkId:1286
+01-03 14:29:24.205  2280  2763 D OplusSlaNetworkManager: isPrimaryWifi:true network:1286
+01-03 14:29:24.206  2280  2736 D SystemNetworkObserver: wifi network 1286 nc changed, primary=true
+01-03 14:29:24.206  2280  2736 D SystemNetworkObserver: default network nc changed 1286
+01-03 14:29:24.206  2929  3009 I SystemUi--Statusbar: NetworkController.WifiSignalController-->handleStatusUpdated state=3 enabled=true connected=true isDefaultNetwork=true rssi=-67 level=4 statusLabel=null isDirty=false
+01-03 14:29:24.207  2929  3009 I SystemUi--Statusbar: NetworkController.WifiSignalController-->handleStatusUpdated state=3 enabled=true connected=true isDefaultNetwork=true rssi=-67 level=4 statusLabel=null isDirty=false
+01-03 14:29:24.207  2929  3009 I SystemUi--Statusbar: NetworkController.WifiSignalController-->handleStatusUpdated state=3 enabled=true connected=true isDefaultNetwork=true rssi=-67 level=4 statusLabel=null isDirty=false
+01-03 14:29:24.207  2929  3096 I WifiPickerTracker: wifi connected status realConnectedWifiEntry not null: true
+01-03 14:29:24.208  2929  2929 I SystemUi--Statusbar: WifiViewModel-->wifiIcon icon:Wi-Fi signal full. isDefault:true alwaysShowIconIfEnabled:false
+01-03 14:29:24.210  1319  1961 I hwcomposer: [DRMDEV] (0:114) failed to waitNextVsync: -1  
+01-03 14:29:24.210   622  1005 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+01-03 14:29:24.210   622  1005 W .gms.persistent: Large reply transaction of 2113536 bytes, interface descriptor , code 1
+01-03 14:29:24.212 24375 24493 I AIUnit-NetworkPublisher: onNetworkChanged [onCapabilitiesChanged, 1286]
+01-03 14:29:24.213 24375 24493 D Track.TrackUpload: onCapabilitiesChanged is calling.
+01-03 14:29:24.213   622  1005 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+01-03 14:29:24.214   622  1005 W .gms.persistent: Large reply transaction of 2113536 bytes, interface descriptor , code 1
+01-03 14:29:24.214  1319  1961 I hwcomposer: [DRMDEV] (0:114) failed to waitNextVsync: -1  
+01-03 14:29:24.214 23077 23093 D SubsysEventListenerManager: onCapabilitiesChanged
+01-03 14:29:24.215 23077 23093 D DataStateTracker: getCurDataChannel, channel:1
+01-03 14:29:24.216   622  1005 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+01-03 14:29:24.216   622  1005 W .gms.persistent: Large reply transaction of 2113536 bytes, interface descriptor , code 1
+01-03 14:29:24.219 15626 15771 I BugleRcsEngine: handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix="RcsEngineImpl[DUAL_REG]:[7783fbd6-d19a]>Handler" thread_id=130 ]
+01-03 14:29:24.220   622  1005 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+01-03 14:29:24.220   622  1005 W .gms.persistent: Large reply transaction of 2113536 bytes, interface descriptor , code 1
+01-03 14:29:24.220 15626 15746 I BugleRcsEngine: Connected state: [1], networkType: [WIFI] [CONTEXT thread_id=123 ]
+01-03 14:29:24.220 15626 15771 I BugleRcsEngine: Cannot use CS.apk as it's battery optimized [CONTEXT thread_id=130 ]
+01-03 14:29:24.220  7944  8030 I CloudKitLog.CloudNetStateUtil: threadId:2244, refreshNetStateInfoImpl preNetworkState:1 currentNetworkState:1, isNetConnected:false, isNetDisConnected:false, isNetChange:false
+01-03 14:29:24.224  1324  1393 I OriginChannel: wise light debug, data[0].type is 65627,data[0].sensor is 91:[196.000000,,120.000000,,29.000000,0.000000,1871913698160336]
+01-03 14:29:24.227   622   622 D BoundBrokerSvc: onRebind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.PersistentApiService mCallingUid=10249 }
+01-03 14:29:24.230  1440  1440 I BufferQueueProducer: [StatusBar#96](this:0xb4000072f7d339e0,id:-1,api:0,p:-1,c:1440) queueBuffer: fps=0.06 dur=18110.64 max=18110.64 min=18110.64
+01-03 14:29:24.233  1319  1353 I hwcomposer: [HWCDisplay] (0 updateFps():4192), (type:1, mode:2) fps:16.397600,dur:4268.92,max:3696.65,min:6.24  
+01-03 14:29:24.260  3374 24500 V OplusTrack-OplusTrack: onCommon logTag is DexOptRecord,eventID:DX_coldstart_record,flagSendTo:1
+01-03 14:29:24.276  1440  4133 D SurfaceFlinger: captureDisplay from pid 1440 uid -1 display 4627039422300187648
+01-03 14:29:24.385  1324  1393 I OriginChannel: wise light debug, data[4].type is 65627,data[4].sensor is 91:[195.000000,,160.000000,,29.000000,0.000000,1871913858169322]
+01-03 14:29:24.546  1324  1393 I OriginChannel: wise light debug, data[0].type is 65627,data[0].sensor is 91:[198.000000,,140.000000,,29.000000,0.000000,1871914018172010]
+01-03 14:29:24.705  1324  1393 I OriginChannel: wise light debug, data[0].type is 65627,data[0].sensor is 91:[198.000000,,160.000000,,29.000000,0.000000,1871914178174841]
+01-03 14:29:24.722   622 16875 I NearbySharing: Network state changed: NetworkState(isRestricted=false, isOnline=true, isCongested=false, isMetered=false, isWifiConnected=true)
+01-03 14:29:24.756  2280  2466 W PackageManager: Not removing package com.google.android.trichromelibrary hosting lib com.google.android.trichromelibrary version 749903433 used by [VersionedPackage[com.google.android.webview/749903433]] for user 0
+01-03 14:29:24.758  2280  2466 W PackageManager: Not removing package com.google.android.trichromelibrary hosting lib com.google.android.trichromelibrary version 749914633 used by [VersionedPackage[com.android.chrome/749914633]] for user 0
+01-03 14:29:24.838  3332  3800 D CommonApp-1286-10212: transport layer data is invalid
+01-03 14:29:24.866  1324  1393 I OriginChannel: wise light debug, data[0].type is 65627,data[0].sensor is 91:[197.000000,,160.000000,,29.000000,0.000000,1871914338181620]
+01-03 14:29:25.025  1324  1393 I OriginChannel: wise light debug, data[4].type is 65627,data[4].sensor is 91:[198.000000,,140.000000,,29.000000,0.000000,1871914498181326]
+01-03 14:29:25.060  1293 23595 E TetherController: property_get sys.radio.data.modem_share_flag return 0, 1!
+01-03 14:29:25.082  5860  5895 D AppSwitchObserverHelper: packageName: com.android.launcher,com.amrutdhara
+01-03 14:29:25.134  1321  1321 D healthd : system healthd: battery l=65 v=4 t=28.1 h=2 st=2 c=-277 fc=4823000 cc=237 chg=u
+01-03 14:29:25.185  1324  1393 I OriginChannel: wise light debug, data[4].type is 65627,data[4].sensor is 91:[197.000000,,120.000000,,29.000000,0.000000,1871914657719486]
+01-03 14:29:25.220  1321  1321 D healthd : system healthd: battery l=65 v=4 t=28.1 h=2 st=2 c=-249 fc=4823000 cc=237 chg=u
+01-03 14:29:25.344  1324  1393 I OriginChannel: wise light debug, data[0].type is 65627,data[0].sensor is 91:[196.000000,,160.000000,,29.000000,0.000000,1871914817973640]
+01-03 14:29:25.450  1367  1367 D vendor.oplus.hardware.charger-V6-service: get_ui_charge_icon_type 0 0 0 0 0
+01-03 14:29:25.453  1367  1367 D vendor.oplus.hardware.charger-V6-service: oplus_chg_get_cpa_power 2500 charge_online 1 retention_topic 0
+01-03 14:29:25.454  1367  1367 D vendor.oplus.hardware.charger-V6-service: oplus_chg_get_cpa_power 2500 charge_online 1 retention_topic 0
+01-03 14:29:25.454  1367  1367 D vendor.oplus.hardware.charger-V6-service: getIsSingleHyperSupport=2, cpa_power=2
+01-03 14:29:25.465  2929  2929 I SystemUi--Statusbar: BatteryControllerExt-->updateBatteryChangeIntent():broadcast=android.intent.action.BATTERY_CHANGED,level=65,scale=100
+01-03 14:29:25.468  2929  2929 I SystemUi--Statusbar: BatteryRepository-->level: 65 -- isSavingMode: false
+01-03 14:29:25.470  2280  2439 D OplusDisplayBrightnessBroadcastReceiver: onReceive action = android.intent.action.BATTERY_CHANGED , listeners = [com.android.server.display.OplusFeatureHDREnhanceBrightness$PhoneInfoReceiver@a9af20f, com.android.server.display.OplusFeatureEdrEnhanceBrightness$PhoneInfoReceiver@a925df8]
+01-03 14:29:25.471 23077 23077 D SubsysBroadcastManager: onReceive action:android.intent.action.BATTERY_CHANGED
+01-03 14:29:25.475 25192 25192 D CustomLogManagerService: onReceive android.intent.action.BATTERY_CHANGED
+01-03 14:29:25.479  5860  5927 E Battery : ChargeProtectionUtils: mCanlendarTmp.isEmpty()!
+01-03 14:29:25.504  1324  1393 I OriginChannel: wise light debug, data[3].type is 65627,data[3].sensor is 91:[198.000000,,140.000000,,29.000000,0.000000,1871914978203716]
+01-03 14:29:25.571  2280  2344 D Theia.TransparentWindow: handleMessage CHECK_TRANS_WINDOW_ERROR_MSG
+01-03 14:29:25.597  1367  1367 D vendor.oplus.hardware.charger-V6-service: get_ui_charge_icon_type 0 0 0 0 0
+01-03 14:29:25.599  1367  1367 D vendor.oplus.hardware.charger-V6-service: oplus_chg_get_cpa_power 2500 charge_online 1 retention_topic 0
+01-03 14:29:25.601  1367  1367 D vendor.oplus.hardware.charger-V6-service: oplus_chg_get_cpa_power 2500 charge_online 1 retention_topic 0
+01-03 14:29:25.601  1367  1367 D vendor.oplus.hardware.charger-V6-service: getIsSingleHyperSupport=2, cpa_power=2
+01-03 14:29:25.623  1334  1399 I mtkpower@impl: [powerd_req] TIMER_MSG_PERF_LOCK_TIMEOUT hdl:307458
+01-03 14:29:25.623  1334  1399 I libPowerHal: [perfLockRel] hdl:307458, idx:7
+01-03 14:29:25.624  1334  1399 I [UAH_CLIENT]: UahRelease, handle:1880581
+01-03 14:29:25.625  1334  1399 I libPowerHal: [perfScnUpdate] release powerhal handle 307458
+01-03 14:29:25.625  1334  1399 I libPowerHal: [PD] MTKPOWER_HINT_EXT_LAUNCH update cmd:2020000 param:0, pr:6
+01-03 14:29:25.626  1334  1399 I libPowerHal: [PD] MTKPOWER_HINT_EXT_LAUNCH update cmd:1408300 param:0, pr:6
+01-03 14:29:25.630  1334  1399 I libPowerHal: [PD] MTKPOWER_HINT_EXT_LAUNCH update cmd:1408300 param:100, pr:6
+01-03 14:29:25.635  1334  1399 I libPowerHal: [PD] MTKPOWER_HINT_EXT_LAUNCH update cmd:808000 param:0 pr:6
+01-03 14:29:25.636  1334  1399 I libPowerHal: [perfLockRel] Done for hdl : 307458
+01-03 14:29:25.663  1367  1470 D vendor.oplus.hardware.charger-V6-service: ret_value:128, read content:,300,214,4040,4024,-238,500,2200,65,65,1,4,-1,4768,65,1,0,1,1,0,0,4465,0,0,0,0,0,0,0,281,0,1,1,0,0,61,61,61,0,0,0,0,0,0,0,0,0,0
+01-03 14:29:25.663  1367  1470 D vendor.oplus.hardware.charger-V6-service: gmtime: 2026-01-03-14-29-25
+01-03 14:29:25.664  1367  1470 D vendor.oplus.hardware.charger-V6-service: usb_online:1, ac_online:0, wireless_online:-2147483648
+01-03 14:29:25.664  1324  1393 I OriginChannel: wise light debug, data[0].type is 65627,data[0].sensor is 91:[197.000000,,160.000000,,29.000000,0.000000,1871915138168976]
+01-03 14:29:25.715 23077 23077 D SubsysEventListenerManager-SubsysTelephonyCallback[1]: onSignalStrengthsChanged
+01-03 14:29:25.716 23077 23077 D AtCmdParser: [PHONE1]< com.oplus.telephony.AtCmdParser$2@95c49f5 urc ind:+ECSQ: 9,43,-329,1,1,-62,-391,4096,-5,1
+01-03 14:29:25.719  2929  3095 I SystemUi--Statusbar: MobileConnectionRepositoryImpl-->subId:5 isSoftSimCard:false slotId:1
+01-03 14:29:25.761  3033  3123 W [0]DCS  : Common Record event failed. DCS reject event: [appId=20239,logTag=gamespace,eventId=gamespace_thermal_report] . Pls check server config.
+01-03 14:29:25.826  1324  1393 I OriginChannel: wise light debug, data[4].type is 65627,data[4].sensor is 91:[198.000000,,160.000000,,29.000000,0.000000,1871915298172068]
+01-03 14:29:25.863  3332  3800 D CommonApp-1286-10212: transport layer data is invalid
+01-03 14:29:25.887  7051 24144 D gaia-GaiaConnectChecker: start connect check++
+01-03 14:29:25.966 23108 13237 I PTC.SDK.AppIpc: remote request. true
+01-03 14:29:25.972 23108 13237 D PTC.SDK.ConnectionServiceClientsImpl: getAvailableDevices,[]
+01-03 14:29:25.985  1324  1393 I OriginChannel: wise light debug, data[0].type is 65627,data[0].sensor is 91:[195.000000,,140.000000,,30.000000,0.000000,1871915458175433]
+01-03 14:29:26.147  1324  1393 I OriginChannel: wise light debug, data[4].type is 65627,data[4].sensor is 91:[198.000000,,160.000000,,29.000000,0.000000,1871915618176942]
+01-03 14:29:26.211  2280  2280 D MBrainLocalService: isVendorFreezeConditionPass is false
+01-03 14:29:26.212  2280  2280 D MBrainLocalService: notifyNetworkChange failed
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory: Connected to unknown network * ID: 0 SSID: "A.1904.4G" PROVIDER-NAME: null BSSID: null FQDN: null HOME-PROVIDER-NETWORK: false PRIO: 0 HIDDEN: false PMF: false CarrierId: -1 SubscriptionId: -1 SubscriptionGroup: null Currently Connected: true User Selected: false
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  NetworkSelectionStatus NETWORK_SELECTION_ENABLED
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  connect choice: "A.1904.5G"WPA_PSK connect choice rssi: -51 hasEverConnected: true
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  hasNeverDetectedCaptivePortal: true
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  hasEverValidatedInternetAccess: true
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  mCandidateSecurityParams: Security Parameters:
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  Type: 2
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  Enabled: true
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  KeyMgmt: WPA_PSK
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  Protocols: WPA RSN
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  AuthAlgorithms:
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  PairwiseCiphers: TKIP CCMP
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  GroupCiphers: WEP40 WEP104 TKIP CCMP
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  GroupMgmtCiphers:
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  SuiteBCiphers:
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  RequirePmf: false
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  IsAddedByAutoUpgrade: false
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  IsSaeH2eOnlyMode: false
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  IsSaePkOnlyMode: false
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  mLastUsedSecurityParams: Security Parameters:
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  Type: 2
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  Enabled: true
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  KeyMgmt: WPA_PSK
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  Protocols: WPA RSN
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  AuthAlgorithms:
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  PairwiseCiphers: TKIP CCMP
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  GroupCiphers: WEP40 WEP104 TKIP CCMP
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  GroupMgmtCiphers:
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  SuiteBCiphers:
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  RequirePmf: false
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  IsAddedByAutoUpgrade: false
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  IsSaeH2eOnlyMode: false
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  IsSaePkOnlyMode: false
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  numAssociation 55
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  validatedInternetAccess shared trusted
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  macRandomizationSetting: 3
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  mRandomizedMacAddress: 7e:6b:50:e3:a0:76
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  randomizedMacExpirationTimeMs: 2026-01-04T14:18:20.438
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  randomizedMacLastModifiedTimeMs: <none>
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  persistentMacRandomizationSeed: 0
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  mIsSendDhcpHostnameEnabled: true
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  deletionPriority: 0
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  KeyMgmt: WPA_PSK Protocols: WPA RSN
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  AuthAlgorithms:
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  PairwiseCiphers: TKIP CCMP
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  GroupCiphers: WEP40 WEP104 TKIP CCMP
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  GroupMgmtCiphers:
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  SuiteBCiphers:
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  PSK/SAE: *
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory: SecurityParams List:
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory: Security Parameters:
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  Type: 2
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  Enabled: true
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  KeyMgmt: WPA_PSK
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  Protocols: WPA RSN
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  AuthAlgorithms:
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  PairwiseCiphers: TKIP CCMP
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  GroupCiphers: WEP40 WEP104 TKIP CCMP
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  GroupMgmtCiphers:
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  SuiteBCiphers:
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  RequirePmf: false
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  IsAddedByAutoUpgrade: false
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  IsSaeH2eOnlyMode: false
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  IsSaePkOnlyMode: false
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory: Security Parameters:
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  Type: 4
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  Enabled: true
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  KeyMgmt: SAE
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  Protocols: RSN
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  AuthAlgorithms:
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  PairwiseCiphers: CCMP GCMP_256 GCMP_128
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  GroupCiphers: CCMP GCMP_256 GCMP_128
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  GroupMgmtCiphers:
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  SuiteBCiphers:
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  RequirePmf: true
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  IsAddedByAutoUpgrade: true
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  IsSaeH2eOnlyMode: false
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  IsSaePkOnlyMode: false
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory: 
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory: Enterprise config:
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  ocsp: 0
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  trust_on_first_use: false
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  user_approve_no_ca_cert: false
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  selected_rcoi: 0
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  minimum_tls_version: 0
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  enable_conservative_peer_mode: false
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  tofu_dialog_state: 0
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  tofu_connection_state: 0
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory: IP config:
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory: IP assignment: DHCP
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory: Proxy settings: NONE
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  cuid=1000 cname=android.uid.system:1000 luid=1000 lname=android lcuid=1000 allowAutojoin=true noInternetAccessExpected=false mostRecentlyConnected=false 
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory: lastConnected: 2026-01-03T14:18:20.457 
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory: 
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory: lastUpdated: 2026-01-01T00:12:32.191 
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory: numRebootsSinceLastUse: 0
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory: recentFailure: Association Rejection code: 0, last update time: 0
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory: bssidAllowlist unset
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory: vendorData unset
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory: IsDppConfigurator: true
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory: HasEncryptedPreSharedKey: false
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  setWifi7Enabled=true
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  mIsAllowedToUpdateByOtherUsers=true
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory:  mCreatorUserId=-2
+01-03 14:29:26.212  2280  2633 W WifiNetworkFactory: :e4:da:df:7e:b0:99. Ignoring...
+01-03 14:29:26.213  2280  2763 D OplusGameFirstManager: oldAverRssi=-67,rssi=-69,newAverRssi=-68
+01-03 14:29:26.221  1319  1961 I hwcomposer: [DRMDEV] (0:114) failed to waitNextVsync: -1  
+01-03 14:29:26.221 23077 23077 D VendorWifiService: onEvent event:9,action:1
+01-03 14:29:26.222  2929  3009 D WifiStatusTracker: mNetworkCallback onCapabilitiesChanged network:1286 mPrimaryNetworkId:1286
+01-03 14:29:26.222  2929  3096 D WifiPickerTracker: handleNetworkCapabilitiesChanged network:1286
+01-03 14:29:26.225  1319  1961 I hwcomposer: [DRMDEV] (0:114) failed to waitNextVsync: -1  
+01-03 14:29:26.225  2280  2736 D SystemNetworkObserver: wifi network 1286 nc changed, primary=true
+01-03 14:29:26.225  2280  2736 D SystemNetworkObserver: default network nc changed 1286
+01-03 14:29:26.225  2280  2763 D OplusSlaNetworkManager: isPrimaryWifi:true network:1286
+01-03 14:29:26.229  2929  3009 D WifiStatusTracker: mNetworkCallback onCapabilitiesChanged network:1286 mPrimaryNetworkId:1286
+01-03 14:29:26.231  2929  3096 I WifiPickerTracker: wifi connected status realConnectedWifiEntry not null: true
+01-03 14:29:26.233  2929  2929 I SystemUi--Statusbar: WifiViewModel-->wifiIcon icon:Wi-Fi three bars. isDefault:true alwaysShowIconIfEnabled:false
+01-03 14:29:26.234  2929  3009 I SystemUi--Statusbar: NetworkController.WifiSignalController-->handleStatusUpdated state=3 enabled=true connected=true isDefaultNetwork=true rssi=-69 level=3 statusLabel=null isDirty=false
+01-03 14:29:26.235 23077 23093 D SubsysEventListenerManager: onCapabilitiesChanged
+01-03 14:29:26.235 23077 23093 D DataStateTracker: getCurDataChannel, channel:1
+01-03 14:29:26.236   622  1005 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+01-03 14:29:26.236   622  1005 W .gms.persistent: Large reply transaction of 2113536 bytes, interface descriptor , code 1
+01-03 14:29:26.238 24375 24493 I AIUnit-NetworkPublisher: onNetworkChanged [onCapabilitiesChanged, 1286]
+01-03 14:29:26.239  2929  3009 I SystemUi--Statusbar: NetworkController.WifiSignalController-->handleStatusUpdated state=3 enabled=true connected=true isDefaultNetwork=true rssi=-69 level=3 statusLabel=null isDirty=false
+01-03 14:29:26.239  2929  3009 I SystemUi--Statusbar: NetworkController.WifiSignalController-->handleStatusUpdated state=3 enabled=true connected=true isDefaultNetwork=true rssi=-69 level=3 statusLabel=null isDirty=false
+01-03 14:29:26.239 24375 24493 D Track.TrackUpload: onCapabilitiesChanged is calling.
+01-03 14:29:26.239 15626 15771 I BugleRcsEngine: handleMessage processing message:[NOTIFY_UPTIME_IGNORE_STATE_CHANGED] with [non-null]:RcsEngineImpl reference [CONTEXT log_prefix="RcsEngineImpl[DUAL_REG]:[7783fbd6-d19a]>Handler" thread_id=130 ]
+01-03 14:29:26.239 15626 15746 I BugleRcsEngine: Connected state: [1], networkType: [WIFI] [CONTEXT thread_id=123 ]
+01-03 14:29:26.241 15626 15771 I BugleRcsEngine: Cannot use CS.apk as it's battery optimized [CONTEXT thread_id=130 ]
+01-03 14:29:26.242   622  1005 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+01-03 14:29:26.242   622  1005 W .gms.persistent: Large reply transaction of 2113536 bytes, interface descriptor , code 1
+01-03 14:29:26.246  7944  8030 I CloudKitLog.CloudNetStateUtil: threadId:2244, refreshNetStateInfoImpl preNetworkState:1 currentNetworkState:1, isNetConnected:false, isNetDisConnected:false, isNetChange:false
+01-03 14:29:26.247   622  1006 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+01-03 14:29:26.247   622  1006 W .gms.persistent: Large reply transaction of 2113536 bytes, interface descriptor , code 1
+01-03 14:29:26.247  1440  1440 I BufferQueueProducer: [StatusBar#96](this:0xb4000072f7d339e0,id:-1,api:0,p:-1,c:1440) queueBuffer: fps=0.50 dur=2017.71 max=2017.71 min=2017.71
+01-03 14:29:26.248  1319  1353 I hwcomposer: [HWCDisplay] (0 updateFps():4192), (type:1, mode:2) fps:0.496138,dur:2015.57,max:2015.57,min:2015.57  
+01-03 14:29:26.250  1440  4133 D SurfaceFlinger: captureDisplay from pid 1440 uid -1 display 4627039422300187648
+01-03 14:29:26.252   622  1006 I NullBinder: NullBinder for android.net.action.RECOMMEND_NETWORKS triggering remote TransactionTooLargeException due to Service without Chimera impl, calling uid: 1000, calling pid: 0
+01-03 14:29:26.252   622  1006 W .gms.persistent: Large reply transaction of 2113536 bytes, interface descriptor , code 1
+01-03 14:29:26.305  1324  1393 I OriginChannel: wise light debug, data[0].type is 65627,data[0].sensor is 91:[195.000000,,140.000000,,29.000000,0.000000,1871915778184020]
+01-03 14:29:26.307  1440  4133 D SurfaceFlinger: captureDisplay from pid 1440 uid -1 display 4627039422300187648
+01-03 14:29:26.467  1324  1393 I OriginChannel: wise light debug, data[4].type is 65627,data[4].sensor is 91:[197.000000,,140.000000,,29.000000,0.000000,1871915938157836]
+01-03 14:29:26.625  1324  1393 I OriginChannel: wise light debug, data[0].type is 65627,data[0].sensor is 91:[196.000000,,160.000000,,29.000000,0.000000,1871916098153831]
+01-03 14:29:26.648  1321  1321 D healthd : system healthd: battery l=65 v=4 t=28.1 h=2 st=2 c=-277 fc=4823000 cc=237 chg=u
+01-03 14:29:26.702  1367  1367 D vendor.oplus.hardware.charger-V6-service: get_ui_charge_icon_type 0 0 0 0 0
+01-03 14:29:26.705  1367  1367 D vendor.oplus.hardware.charger-V6-service: oplus_chg_get_cpa_power 2500 charge_online 1 retention_topic 0
+01-03 14:29:26.706  1367  1367 D vendor.oplus.hardware.charger-V6-service: oplus_chg_get_cpa_power 2500 charge_online 1 retention_topic 0
+01-03 14:29:26.706  1367  1367 D vendor.oplus.hardware.charger-V6-service: getIsSingleHyperSupport=2, cpa_power=2
+01-03 14:29:26.750   622 23191 I NearbySharing: Network state changed: NetworkState(isRestricted=false, isOnline=true, isCongested=false, isMetered=false, isWifiConnected=true)
+01-03 14:29:26.787  1324  1393 I OriginChannel: wise light debug, data[0].type is 65627,data[0].sensor is 91:[195.000000,,160.000000,,29.000000,0.000000,1871916258402518]
+01-03 14:29:26.808  3277  3277 D OplusTelephonyController: onSignalStrengthChanged: SignalStrength=SignalStrength:{mCdma=CellSignalStrengthCdma: cdmaDbm=2147483647 cdmaEcio=2147483647 evdoDbm=2147483647 evdoEcio=2147483647 evdoSnr=2147483647 level=0,mGsm=CellSignalStrengthGsm: rssi=2147483647 ber=2147483647 mTa=2147483647 mLevel=0,mWcdma=CellSignalStrengthWcdma: ss=2147483647 ber=2147483647 rscp=2147483647 ecno=2147483647 level=0,mTdscdma=CellSignalStrengthTdscdma: rssi=2147483647 ber=2147483647 rscp=2147483647 level=0,mLte=CellSignalStrengthLte: rssi=2147483647 rsrp=2147483647 rsrq=2147483647 rssnr=2147483647 cqiTableIndex=2147483647 cqi=2147483647 ta=2147483647 level=0 parametersUseForLevel=0,mNr=CellSignalStrengthNr:{ csiRsrp = 2147483647 csiRsrq = 2147483647 csiCqiTableIndex = 2147483647 csiCqiReport = [] ssRsrp = -107 ssRsrq = -6 ssSinr = 7 level = 1 parametersUseForLevel = 0 timingAdvance = 0 },primary=CellSignalStrengthNr}
+01-03 14:29:26.808 23077 23077 D AtCmdParser: [PHONE0]< com.oplus.telephony.AtCmdParser$2@95c49f5 urc ind:+ECSQ: 76,50,-405,1,1,-21,-426,32768,29,78,32767,32767,32767
+01-03 14:29:26.809 23077 23077 D SubsysEventListenerManager-SubsysTelephonyCallback[0]: onSignalStrengthsChanged
+01-03 14:29:26.813  2929  3095 I SystemUi--Statusbar: MobileConnectionRepositoryImpl-->subId:1 isSoftSimCard:false slotId:0
+01-03 14:29:26.887  3332  3800 D CommonApp-1286-10212: transport layer data is invalid
+01-03 14:29:26.899 26073 26115 I Finsky  : [2291] AIM: AppInfoManager-Perf > Destroying AppInfoManager ...
+01-03 14:29:26.945  1324  1393 I OriginChannel: wise light debug, data[3].type is 65627,data[3].sensor is 91:[197.000000,,160.000000,,29.000000,0.000000,1871916418162134]
+01-03 14:29:26.954  1678  2155 D ULogGuard: Monitoring: 2 threads, 0 requests, 0 time-bombs; 15 guards. ResetFlags = 0x7
+01-03 14:29:27.105  1324  1393 I OriginChannel: wise light debug, data[0].type is 65627,data[0].sensor is 91:[199.000000,,140.000000,,29.000000,0.000000,1871916578172057]
+01-03 14:29:27.265  1324  1393 I OriginChannel: wise light debug, data[4].type is 65627,data[4].sensor is 91:[195.000000,,140.000000,,30.000000,0.000000,1871916738175672]
+01-03 14:29:27.272  1722 24188 D AALLightSensor: oldLux=6 [SA:-1 LA:-1] newLux=6 (oriLux: 6)
+01-03 14:29:27.428  1324  1393 I OriginChannel: wise light debug, data[0].type is 65627,data[0].sensor is 91:[198.000000,,160.000000,,29.000000,0.000000,1871916898178442]
+01-03 14:29:27.478 25192 27691 D CustomLogManagerService: WorkHandler msg.what :5
+01-03 14:29:27.479 25192 27691 D CustomLogManagerService: user experience toggle off
+01-03 14:29:27.587  1324  1393 I OriginChannel: wise light debug, data[4].type is 65627,data[4].sensor is 91:[198.000000,,140.000000,,28.000000,0.000000,1871917058183422]
+01-03 14:29:27.747  1324  1393 I OriginChannel: wise light debug, data[0].type is 65627,data[0].sensor is 91:[197.000000,,160.000000,,29.000000,0.000000,1871917218156634]
+01-03 14:29:27.906  1324  1393 I OriginChannel: wise light debug, data[4].type is 65627,data[4].sensor is 91:[198.000000,,160.000000,,29.000000,0.000000,1871917378160231]
+01-03 14:29:27.910  3332  3800 D CommonApp-1286-10212: transport layer data is invalid
+01-03 14:29:28.067  1324  1393 I OriginChannel: wise light debug, data[0].type is 65627,data[0].sensor is 91:[196.000000,,140.000000,,29.000000,0.000000,1871917538161813]
+01-03 14:29:28.140  6888 30911 D ShellSubscriberWorkerThread: the first 8 bytes empty, and RestData length > 8 
+01-03 14:29:28.227  1324  1393 I OriginChannel: wise light debug, data[3].type is 65627,data[3].sensor is 91:[195.000000,,140.000000,,29.000000,0.000000,1871917698164260]
+01-03 14:29:28.237 30223 30223 I wpa_supplicant: wlan0: command[CURRENT_RSSI -68], reply:SUCCESS
+01-03 14:29:28.238  2280  2736 D OplusWifiPower_TriggerCenter: mComponentCallback: wifistat
+01-03 14:29:28.238 23077 23077 D VendorWifiService: onEvent event:9,action:1
+01-03 14:29:28.239  1319  1961 I hwcomposer: [DRMDEV] (0:114) failed to waitNextVsync: -1  
+01-03 14:29:28.243  1319  1961 I hwcomposer: [DRMDEV] (0:114) failed to waitNextVsync: -1  
+01-03 14:29:28.246  1319  1961 I hwcomposer: [DRMDEV] (0:114) failed to waitNextVsync: -1  
+01-03 14:29:28.265  1440  1440 I BufferQueueProducer: [StatusBar#96](this:0xb4000072f7d339e0,id:-1,api:0,p:-1,c:1440) queueBuffer: fps=0.99 dur=2018.05 max=2001.11 min=16.95
+01-03 14:29:28.269  1319  1353 I hwcomposer: [HWCDisplay] (0 updateFps():4192), (type:1, mode:2) fps:0.990053,dur:2020.09,max:2001.54,min:18.56  
+01-03 14:29:28.387  1324  1393 I OriginChannel: wise light debug, data[0].type is 65627,data[0].sensor is 91:[197.000000,,160.000000,,29.000000,0.000000,1871917858171953]
+01-03 14:29:28.390  1440  4133 D SurfaceFlinger: captureDisplay from pid 1440 uid -1 display 4627039422300187648
+01-03 14:29:28.547  1324  1393 I OriginChannel: wise light debug, data[4].type is 65627,data[4].sensor is 91:[195.000000,,140.000000,,30.000000,0.000000,1871918018177429]
+01-03 14:29:28.705  1324  1393 I OriginChannel: wise light debug, data[0].type is 65627,data[0].sensor is 91:[197.000000,,140.000000,,29.000000,0.000000,1871918177706475]
+01-03 14:29:28.864  1324  1393 I OriginChannel: wise light debug, data[0].type is 65627,data[0].sensor is 91:[195.000000,,160.000000,,29.000000,0.000000,1871918337714481]
+01-03 14:29:28.935  3332  3800 D CommonApp-1286-10212: transport layer data is invalid
+01-03 14:29:29.024  1324  1393 I OriginChannel: wise light debug, data[3].type is 65627,data[3].sensor is 91:[196.000000,,120.000000,,29.000000,0.000000,1871918497711005]
+01-03 14:29:29.186  1324  1393 I OriginChannel: wise light debug, data[0].type is 65627,data[0].sensor is 91:[197.000000,,100.000000,,29.000000,0.000000,1871918658042072]
+01-03 14:29:29.249   622   622 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.common.telemetry.service.START dat=chimera-action:/... cmp=com.google.android.gms/.chimera.PersistentApiService mCallingUid=10249 }
+01-03 14:29:29.345  1324  1393 I OriginChannel: wise light debug, data[4].type is 65627,data[4].sensor is 91:[195.000000,,120.000000,,29.000000,0.000000,1871918818160596]
+01-03 14:29:29.505  1324  1393 I OriginChannel: wise light debug, data[4].type is 65627,data[4].sensor is 91:[197.000000,,160.000000,,29.000000,0.000000,1871918978158366]
+01-03 14:29:29.549  7051 16935 D gaia-GaiaConnectChecker: start connect check++
+01-03 14:29:29.608  2280  2803 W Binder  : Outgoing transactions from this process must be FLAG_ONEWAY
+01-03 14:29:29.608  2280  2803 W Binder  : java.lang.Throwable
+01-03 14:29:29.608  2280  2803 W Binder  : 	at android.os.BinderProxy.transact(BinderProxy.java:633)
+01-03 14:29:29.608  2280  2803 W Binder  : 	at android.content.ContentProviderProxy.insert(ContentProviderNative.java:587)
+01-03 14:29:29.608  2280  2803 W Binder  : 	at android.content.ContentProviderClient.insert(ContentProviderClient.java:347)
+01-03 14:29:29.608  2280  2803 W Binder  : 	at android.content.ContentProviderClient.insert(ContentProviderClient.java:336)
+01-03 14:29:29.608  2280  2803 W Binder  : 	at com.oplus.util.OplusStatisticsImpl.insert(OplusStatisticsImpl.java:307)
+01-03 14:29:29.608  2280  2803 W Binder  : 	at com.oplus.util.OplusStatisticsImpl.sendDataToDCS(OplusStatisticsImpl.java:287)
+01-03 14:29:29.608  2280  2803 W Binder  : 	at com.oplus.util.OplusStatisticsImpl.flushInternal(OplusStatisticsImpl.java:264)
+01-03 14:29:29.608  2280  2803 W Binder  : 	at com.oplus.util.OplusStatisticsImpl.lambda$setDelayFlushJobIfNeed$4(OplusStatisticsImpl.java:211)
+01-03 14:29:29.608  2280  2803 W Binder  : 	at com.oplus.util.OplusStatisticsImpl.$r8$lambda$4UYTp2NCu6Rml69JNqEuK7o54SI(Unknown Source:0)
+01-03 14:29:29.608  2280  2803 W Binder  : 	at com.oplus.util.OplusStatisticsImpl$$ExternalSyntheticLambda5.run(D8$$SyntheticClass:0)
+01-03 14:29:29.608  2280  2803 W Binder  : 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:520)
+01-03 14:29:29.608  2280  2803 W Binder  : 	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+01-03 14:29:29.608  2280  2803 W Binder  : 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:348)
+01-03 14:29:29.608  2280  2803 W Binder  : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+01-03 14:29:29.608  2280  2803 W Binder  : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+01-03 14:29:29.608  2280  2803 W Binder  : 	at java.lang.Thread.run(Thread.java:1563)
+01-03 14:29:29.664  1324  1393 I OriginChannel: wise light debug, data[0].type is 65627,data[0].sensor is 91:[197.000000,,160.000000,,29.000000,0.000000,1871919137696202]
+01-03 14:29:29.824  1324  1393 I OriginChannel: wise light debug, data[4].type is 65627,data[4].sensor is 91:[197.000000,,80.000000,,29.000000,0.000000,1871919298206020]
+01-03 14:29:29.955  1678  2155 D ULogGuard: Monitoring: 2 threads, 0 requests, 0 time-bombs; 15 guards. ResetFlags = 0x7
+01-03 14:29:29.961  3332  3800 D CommonApp-1286-10212: transport layer data is invalid
+01-03 14:29:29.985  1324  1393 I OriginChannel: wise light debug, data[0].type is 65627,data[0].sensor is 91:[196.000000,,140.000000,,29.000000,0.000000,1871919458176168]
+01-03 14:29:30.082  3332  3800 D CommonApp-1286-10212: DefaultState EVENT_SCENARIOS_CHANGE
+01-03 14:29:30.082  3332  3800 D CommonApp-1286-10212: scene=COMMON pn=com.google.android.packageinstaller
+01-03 14:29:30.145  1324  1393 I OriginChannel: wise light debug, data[3].type is 65627,data[3].sensor is 91:[196.000000,,160.000000,,29.000000,0.000000,1871919618178938]
+01-03 14:29:30.250 23077 23077 D VendorWifiService: onEvent event:9,action:1
+01-03 14:29:30.307  1324  1393 I OriginChannel: wise light debug, data[0].type is 65627,data[0].sensor is 91:[197.000000,,140.000000,,29.000000,0.000000,1871919778183875]
+01-03 14:29:30.465  1324  1393 I OriginChannel: wise light debug, data[4].type is 65627,data[4].sensor is 91:[195.000000,,140.000000,,29.000000,0.000000,1871919938156265]
+01-03 14:29:30.582  3332  3800 D UlPriorityPolicyForeground: match: config has not com.google.android.packageinstaller
+01-03 14:29:30.627  1324  1393 I OriginChannel: wise light debug, data[0].type is 65627,data[0].sensor is 91:[197.000000,,120.000000,,29.000000,0.000000,1871920098160870]
+01-03 14:29:30.665  1367  1470 D vendor.oplus.hardware.charger-V6-service: ret_value:128, read content:,300,214,4040,4024,-282,500,2200,65,65,1,4,-1,4768,65,1,0,1,1,0,0,4465,0,0,0,0,0,0,0,281,0,1,1,0,0,61,61,61,0,0,0,0,0,0,0,0,0,0
+01-03 14:29:30.666  1367  1470 D vendor.oplus.hardware.charger-V6-service: gmtime: 2026-01-03-14-29-30
+01-03 14:29:30.666  1367  1470 D vendor.oplus.hardware.charger-V6-service: usb_online:1, ac_online:0, wireless_online:-2147483648
+01-03 14:29:30.787  1324  1393 I OriginChannel: wise light debug, data[0].type is 65627,data[0].sensor is 91:[198.000000,,160.000000,,29.000000,0.000000,1871920258164471]
+01-03 14:29:30.795   622 23191 I NearbyMediums: No BLE Fast/GATT advertisements found in the latest cycle.
+01-03 14:29:30.796   622 23191 I NearbyMediums: Current Tracked Scanning Clients are : {NearbyConnections.EnvironmentMonitor, NearbySharing}
+01-03 14:29:30.835 23077 23077 D SubsysEventListenerManager-SubsysTelephonyCallback[1]: onSignalStrengthsChanged
+01-03 14:29:30.837 23077 23077 D AtCmdParser: [PHONE1]< com.oplus.telephony.AtCmdParser$2@95c49f5 urc ind:+ECSQ: 7,42,-329,1,1,-66,-395,4096,-12,1
+01-03 14:29:30.842  2929  3095 I SystemUi--Statusbar: MobileConnectionRepositoryImpl-->subId:5 isSoftSimCard:false slotId:1
+01-03 14:29:30.945  1324  1393 I OriginChannel: wise light debug, data[4].type is 65627,data[4].sensor is 91:[196.000000,,160.000000,,29.000000,0.000000,1871920418167020]
+01-03 14:29:30.982  3332  3800 D CommonApp-1286-10212: transport layer data is invalid
+01-03 14:29:31.107  1324  1393 I OriginChannel: wise light debug, data[0].type is 65627,data[0].sensor is 91:[196.000000,,160.000000,,29.000000,0.000000,1871920578171914]
+01-03 14:29:31.267  1324  1393 I OriginChannel: wise light debug, data[3].type is 65627,data[3].sensor is 91:[195.000000,,120.000000,,29.000000,0.000000,1871920738173674]
+01-03 14:29:31.275  1321  1321 D healthd : system healthd: battery l=65 v=4 t=28.1 h=2 st=2 c=-243 fc=4823000 cc=237 chg=u
+01-03 14:29:31.364  1321  1321 D healthd : system healthd: battery l=65 v=4 t=28.1 h=2 st=2 c=-253 fc=4823000 cc=237 chg=u
+01-03 14:29:31.425  1324  1393 I OriginChannel: wise light debug, data[0].type is 65627,data[0].sensor is 91:[196.000000,,160.000000,,29.000000,0.000000,1871920898179519]
+01-03 14:29:31.432  1722 24188 D AALLightSensor: oldLux=6 [SA:-1 LA:-1] newLux=6 (oriLux: 6)
+01-03 14:29:31.585  1324  1393 I OriginChannel: wise light debug, data[4].type is 65627,data[4].sensor is 91:[198.000000,,160.000000,,29.000000,0.000000,1871921058181673]
+01-03 14:29:31.593  1367  1367 D vendor.oplus.hardware.charger-V6-service: get_ui_charge_icon_type 0 0 0 0 0
+01-03 14:29:31.595  1367  1367 D vendor.oplus.hardware.charger-V6-service: oplus_chg_get_cpa_power 2500 charge_online 1 retention_topic 0
+01-03 14:29:31.597  1367  1367 D vendor.oplus.hardware.charger-V6-service: oplus_chg_get_cpa_power 2500 charge_online 1 retention_topic 0
+01-03 14:29:31.597  1367  1367 D vendor.oplus.hardware.charger-V6-service: getIsSingleHyperSupport=2, cpa_power=2
+01-03 14:29:31.736  1367  1367 D vendor.oplus.hardware.charger-V6-service: get_ui_charge_icon_type 0 0 0 0 0
+01-03 14:29:31.738  1367  1367 D vendor.oplus.hardware.charger-V6-service: oplus_chg_get_cpa_power 2500 charge_online 1 retention_topic 0
+01-03 14:29:31.740  1367  1367 D vendor.oplus.hardware.charger-V6-service: oplus_chg_get_cpa_power 2500 charge_online 1 retention_topic 0
+01-03 14:29:31.740  1367  1367 D vendor.oplus.hardware.charger-V6-service: getIsSingleHyperSupport=2, cpa_power=2
+01-03 14:29:31.745  1324  1393 I OriginChannel: wise light debug, data[0].type is 65627,data[0].sensor is 91:[196.000000,,140.000000,,29.000000,0.000000,1871921218184519]
+01-03 14:29:31.905  1324  1393 I OriginChannel: wise light debug, data[4].type is 65627,data[4].sensor is 91:[197.000000,,160.000000,,29.000000,0.000000,1871921377715885]
+01-03 14:29:32.005  3332  3800 D CommonApp-1286-10212: transport layer data is invalid
+01-03 14:29:32.067  1324  1393 I OriginChannel: wise light debug, data[0].type is 65627,data[0].sensor is 91:[198.000000,,160.000000,,29.000000,0.000000,1871921538153947]
+01-03 14:29:32.227  1324  1393 I OriginChannel: wise light debug, data[4].type is 65627,data[4].sensor is 91:[198.000000,,120.000000,,29.000000,0.000000,1871921698156837]
+01-03 14:29:32.273  2280  2736 D OplusWifiPower_TriggerCenter: mComponentCallback: wifistat
+01-03 14:29:32.274 23077 23077 D VendorWifiService: onEvent event:9,action:1
+01-03 14:29:32.385  1324  1393 I OriginChannel: wise light debug, data[0].type is 65627,data[0].sensor is 91:[195.000000,,160.000000,,29.000000,0.000000,1871921858167235]
+01-03 14:29:32.435  1681  1681 I thermal_repeater: [recvMdThermalInfo] ret=22, strLen=127,  4, 33, 0, 0, 32767, 0
+01-03 14:29:32.546  1324  1393 I OriginChannel: wise light debug, data[3].type is 65627,data[3].sensor is 91:[197.000000,,140.000000,,29.000000,0.000000,1871922018168880]
+01-03 14:29:32.705  1324  1393 I OriginChannel: wise light debug, data[0].type is 65627,data[0].sensor is 91:[196.000000,,140.000000,,29.000000,0.000000,1871922178224518]
+01-03 14:29:32.865  1324  1393 I OriginChannel: wise light debug, data[0].type is 65627,data[0].sensor is 91:[198.000000,,160.000000,,29.000000,0.000000,1871922338181826]

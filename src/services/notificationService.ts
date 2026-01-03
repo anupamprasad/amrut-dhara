@@ -1,5 +1,6 @@
 import {supabase} from './supabase';
 import {API_CONFIG} from '../config/api.config';
+import base64 from 'react-native-base64';
 
 // Notification service for sending emails and SMS
 // This service calls external APIs directly from the app
@@ -195,9 +196,9 @@ export const notificationService = {
 
       const smsMessage = `New Order! ${data.companyName} - ${data.contactName}. ${data.quantity}x ${data.bottleType}. Delivery: ${new Date(data.deliveryDate).toLocaleDateString()}. ID: ${data.orderId.slice(0, 8)}`;
 
-      const auth = Buffer.from(
-        `${API_CONFIG.twilio.accountSid}:${API_CONFIG.twilio.authToken}`,
-      ).toString('base64');
+      // Create base64 auth for Twilio
+      const authString = `${API_CONFIG.twilio.accountSid}:${API_CONFIG.twilio.authToken}`;
+      const auth = base64.encode(authString);
 
       const response = await fetch(
         `https://api.twilio.com/2010-04-01/Accounts/${API_CONFIG.twilio.accountSid}/Messages.json`,

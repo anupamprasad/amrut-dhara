@@ -115,7 +115,7 @@ const NewOrderScreen = () => {
               setCompanyName('');
               setContactName('');
               setMobileNumber('');
-              setBottleType('20L');
+              setBottleType('200ml');
               setQuantity('');
               setDeliveryAddress('');
               setDeliveryDate(new Date());
